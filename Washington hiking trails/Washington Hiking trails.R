@@ -1,3 +1,7 @@
+title: "CorrelAid Tidytuesday Contribution"
+author: "Andreas Neumann"
+date: "`r Sys.Date()`
+
 library(ggplot2)
 library(tidyverse)
 library(plyr)
@@ -26,7 +30,7 @@ check2<-ddply(clean_hike_data, .(location_general), summarize,  rating=mean(rati
 
 ggplot()+
   geom_point(data=clean_hike_data,aes(location_general,rating,size=length_total,col=trip),alpha=0.25)+
-  labs(y="Ratings", x="location",title = "How popular are Washington´s hiking trails?",
+  labs(y="Ratings", x="location",title = "How popular are WashingtonÂ´s hiking trails?",
        color = "Trail Category:", size="Length in:\nmiles:")+
   geom_hline(yintercept = 2.50,color="white") +
   geom_point(data=check2, aes(location_general, rating,size=50),shape=17,alpha=1500,color="darkgrey")+ 
