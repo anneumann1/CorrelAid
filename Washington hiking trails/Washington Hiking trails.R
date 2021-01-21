@@ -1,6 +1,5 @@
 title: "CorrelAid Tidytuesday Contribution"
 author: "Andreas Neumann"
-date: "`r Sys.Date()`
 
 library(ggplot2)
 library(tidyverse)
