@@ -1,6 +1,3 @@
-title: "CorrelAid Tidytuesday Contribution"
-author: "Andreas Neumann"
-
 library(ggplot2)
 library(tidyverse)
 library(plyr)
