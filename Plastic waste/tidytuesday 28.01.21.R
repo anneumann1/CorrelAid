@@ -8,7 +8,6 @@ plastics <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/t
 b<-subset(plastics, year==2019 & parent_company=="Grand Total")
 
 tall <- b %>% gather(key = total, value = cat, empty:pvc)
-tall$id <- group_indices(tall, country)
 
 tall<-tall%>%
   mutate_if(is.numeric, ~replace(., is.na(.), 0))
