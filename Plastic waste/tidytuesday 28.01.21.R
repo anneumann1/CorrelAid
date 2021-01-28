@@ -16,7 +16,7 @@ tall<-tall%>%
 ###add percentages+additional data wrangling###
 tall<- tall %>% dplyr::group_by(id) %>% dplyr::mutate(percent = cat/sum(cat))
 
-tall[which(tall$country=="Cote D_ivoire"),1] <- "Côte d'Ivoire"
+tall[which(tall$country=="Cote D_ivoire"),1] <- "CÃ´te d'Ivoire"
 tall[which(tall$country=="Taiwan_ Republic of China (ROC)"),1] <- "Taiwan"
 tall[which(tall$country=="NIGERIA"),1] <- "Nigeria"
 tall[which(tall$country=="ECUADOR"),1] <- "Ecuador"
@@ -31,7 +31,7 @@ tall%>%
   dplyr::arrange(country,percent, .by_group = TRUE)%>%
   ggplot() +
   geom_circle(aes(x0=0, y0 =percent/2, r =percent/2,color=total),alpha=5)+
-  facet_wrap(vars(country))+  
+  facet_wrap(~country)+  
   scale_y_continuous(labels = percent,name="%-share")+
   scale_x_continuous(breaks=NULL)+
   scale_colour_manual(name="Category",values = c("red","black","lightblue","green3","yellow","orange","pink"), labels = c("High density\npolyethylene", "Low density\npolyethylene", "other plastic","Polyester plastic","Polypropylene count","Polystyrene count","PVC plastic"))+
