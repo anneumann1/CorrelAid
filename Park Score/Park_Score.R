@@ -27,7 +27,7 @@ topten%>%
   scale_y_reverse(breaks = seq(1, 10, by=1))+
   geom_segment(c,mapping=aes(x = 2021,y =rank , xend = year+total_pct/50,yend = rank), size = 6)+
   geom_text(c,mapping= aes(x = 2021.5, y = rank, label = total_pct, color = city), hjust = 0, size = 2, nudge_x = .4)+
-  labs(title ="Recreational Paradise",subtitle = "The top 10 cities according to the ParkScore�\nThe score consists of 10 indicators such as the:\n??? Median Park Size\n??? Percent of Residents within a 10-Minute Walk to Park\n??? Parkland as Percent of City Area  or\n??? Playgrounds per 10,000 Residents",caption = glue("Data Source: The Trust for Public Land\nGraphics:Andreas Neumann"))+
+  labs(title ="Recreational Paradise",subtitle = "The top 10 cities according to the ParkScore®\nThe score consists of 10 indicators such as the:\n● Median Park Size\n● Percent of Residents within a 10-Minute Walk to Park\n● Parkland as Percent of City Area  or\n● Playgrounds per 10,000 Residents",caption = glue("Data Source: The Trust for Public Land\nGraphics:Andreas Neumann"))+
   theme(text = element_text(family ="serif"),
         legend.position = "none",
         panel.grid = element_blank(),
