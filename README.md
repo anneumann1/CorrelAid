@@ -22,8 +22,9 @@ Data Source<-https://github.com/rfordatascience/tidytuesday/
 |  2020-12-23 | ![alt text](https://raw.githubusercontent.com/anneumann1/CorrelAid/master/Big%20Mac%20Index/Rplot38.png)   | [link](https://github.com/anneumann1/CorrelAid/blob/master/Big%20Mac%20Index/Big%20Mac%20Index.R) |
 |  2021-01-12| ![alt text](https://raw.githubusercontent.com/anneumann1/CorrelAid/master/Tate%20Art/Rplot53.png)           |🚧|
 |  2021-01-28| ![alt text](https://raw.githubusercontent.com/anneumann1/CorrelAid/master/Plastic%20waste/Tidytuesday26.01.21.png)| [link](https://github.com/anneumann1/CorrelAid/blob/master/Plastic%20waste/tidytuesday%2028.01.21.R)|
-|2021-02-09|![alt text](https://github.com/anneumann1/CorrelAid/blob/master/Urban%20Institute/Rplot17.png)| [link](https://github.com/anneumann1/CorrelAid/blob/master/Urban%20Institute/urban%20Institue.R)|
-|2021-04-27|![alt text](https://github.com/anneumann1/CorrelAid/blob/master/US%20Post-Offices/Rplot12.png) |🚧|
-|2021-06-21|![alt text](https://github.com/anneumann1/CorrelAid/blob/master/Park%20Score/ParkScoreIndex.png)|[link](https://github.com/anneumann1/CorrelAid/blob/master/Park%20Score/Park_Score.R)|
+|2021-02-09|![alt text](https://github.com/anneumann1/CorrelAid/blob/master/Urban%20Institute/Rplot17.png,)| [link](https://github.com/anneumann1/CorrelAid/blob/master/Urban%20Institute/urban%20Institue.R)|
+|2021-04-27|![alt text](https://github.com/anneumann1/CorrelAid/blob/master/US%20Post-Offices/Rplot12.png)![Rplot06](https://user-images.githubusercontent.com/68635246/153725867-b7bae67c-e5e7-4e73-b3e3-f50c52490514.png) |🚧|
+|2021-06-21|![alt text](https://github.com/anneumann1/CorrelAid/blob/master/Park%20Score/ParkScoreIndex.png)
+|[link](https://github.com/anneumann1/CorrelAid/blob/master/Park%20Score/Park_Score.R)|
 |2021-09-16|![alt text](https://github.com/anneumann1/CorrelAid/blob/master/Tidytuesday%20Challenge/Rplot71.png)|[link](https://gist.github.com/anneumann1/ac439481c6e1b01a72d4954f337cd6ec)|
 |tbd|||
